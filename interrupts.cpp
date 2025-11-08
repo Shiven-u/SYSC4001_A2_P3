@@ -243,8 +243,8 @@ int main(int argc, char** argv) {
 
     input_file.close();
 
-    write_output(execution, "output/execution.txt");
-    write_output(system_status, "output/system_status.txt");
+    write_output(execution, "output_files/execution1.txt");
+    write_output(system_status, "output_files/system_status1.txt");
 
     return 0;
 }
